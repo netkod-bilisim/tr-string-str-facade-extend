@@ -6,8 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 
 /**
- * Class StrTrExtendServiceProvider
- * @package NetkodBilisim
+ * Class StrTrExtendServiceProvider.
  */
 class StrTrExtendServiceProvider extends ServiceProvider
 {
