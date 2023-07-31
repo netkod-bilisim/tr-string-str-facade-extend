@@ -1,0 +1,37 @@
+{
+    "name": "netkod-bilisim/tr-string-str-facade-extend",
+    "description": "Extended version of Turkish string package.",
+    "keywords": [
+        "tr string",
+        "tr string str facade extend",
+        "tr string str extend"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tekin Alperen ÖZER",
+            "email": "alperen.ozer@netkodbilisim.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": ">=5.5",
+        "netkod-bilisim/tr-string": "^1"
+    },
+    "autoload": {
+        "classmap": [
+            "./src/"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NetkodBilisim\\StrTrExtendServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
